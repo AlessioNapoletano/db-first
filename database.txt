@@ -1,0 +1,17 @@
+    Consegna: 
+    Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+        NOME                     |      Tipo di dato            |       Attributi
+        ID                       |MEDIUMINT                     |PRIMARI_KEY_AUTO_INCREMENT
+        tipo_veicolo             |VARCHAR(50)                   |NOTNULL
+        modello_veicolo          |VARCHAR(100)                  |NOTNULL
+        consumo_veicolo          |VARCHAR(5)                    |NOTNULL
+        targa_veicolo            |VARCHAR(7)                    |UNIQUE
+        cavalli_veicolo          |VARCHAR(3)                    |NOTNULL
+        immatricolazione_auto    |DATE                          |NOTNULL
+        prezzo_veicolo           |FLOAT(8,2)                    |NOTNULL
+        modello_veicolo          |VARCHAR(50)                   |NOTNULL
+        km_totali                |FLOAT(8,2)                    |NOTNULL
+        numero_telaio            |VARCHAR(10)                   |UNIQUE
+        cilindrata_veicolo       |VARCHAR(100)                  |NOTNULL
